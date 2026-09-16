@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Мой сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        /* Шапка */
+        header {
+            background: #4a6fa5;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0 0 10px;
+            font-size: 32px;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        /* Меню */
+        nav {
+            background: #3a5a85;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Основной блок */
+        main {
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .block {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .block h2 {
+            margin-top: 0;
+            color: #4a6fa5;
+            font-size: 22px;
+        }
+
+        /* Список навыков */
+        .skills {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills li {
+            background: #eaf0f9;
+            color: #4a6fa5;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        /* Контакты */
+        .contacts a {
+            display: inline-block;
+            margin-right: 15px;
+            color: #4a6fa5;
+            text-decoration: none;
+        }
+
+        .contacts a:hover {
+            text-decoration: underline;
+        }
+
+        /* Подвал */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Шаблон сайта</h1>
+        <p>Добро пожаловать на сайт по ветке second!</p>
+    </header>
+
+    <nav>
+        <a href="#about">Обо мне</a>
+        <a href="#skills">Навыки</a>
+        <a href="#contacts">Контакты</a>
+    </nav>
+
+    <main>
+        <div class="block" id="about">
+            <h2>Обо мне</h2>
+            <p>Ваш веб-разработчик и спец по шашлыкам</p>
+        </div>
+
+        <div class="block" id="skills">
+            <h2>Навыки</h2>
+            <ul class="skills"
+                <li>C++</li>
+                <li>Git</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </div>
+
+        <div class="block" id="contacts">
+            <h2>Контакты</h2>
+            <div class="contacts">
+                <a href="https://github.com/mustafaevadd-coder">GitHub</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        © 2026 dinaraam
+    </footer>
+
+</body>
+</html>
